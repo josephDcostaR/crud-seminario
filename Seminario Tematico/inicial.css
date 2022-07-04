@@ -1,0 +1,85 @@
+body {
+    background-image:-moz-linear-gradient(to left, rgb(25, 25, 143), rgba(40, 3, 49, 0.356));
+    background-size: 110%;
+    color: rgba(218, 218, 218, 0.952);
+}
+
+fieldset {
+    margin-top: none;
+    border-style: double;
+    border-color: rgba(76, 95, 177, 0.651);
+    border-radius: 20px;
+    border-width: 4px;
+    width: 310px;
+}
+
+legend {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;  
+    margin-top: none;
+    margin-bottom:0%;
+    text-align: right;
+    border-color: #3262a0;
+    border-style: double;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+.input_position {
+    position: relative;
+}
+
+.main {
+    top: 50%; left: 50%;
+    padding: radius;
+    padding: 5px;
+    border: radius;
+    transform: translate(-50%,-60%);
+    position: fixed;
+    background-color: rgba(0, 52, 126, 0.342);
+    width: 347px;
+}
+
+#line1 {
+    color: rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    } #line2 {
+        color: rgba(0, 102, 255, 0.5);
+        }
+                  
+                  
+.inputClass {
+    background-color: rgba(28, 0, 212, 0.247);
+    border-left-color: rgb(0, 89, 255);
+    border-bottom-color: rgb(0, 89, 255);
+    border-right-color: #4600357a;
+    border-top-color: #46003550;
+    color: rgb(255, 255, 255);
+    height: 12px;
+    width: 95%;
+    font-size: 12px;
+    font-weight: 50;
+    letter-spacing: 1px; 
+}
+
+.envio {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:3%;
+    margin-bottom: 0%;
+    padding: 8px;
+    border: 3px radius rgba(54, 0, 47, 0.89);
+    border-radius: 8%;
+    width: 80px; 
+    text-align: center;
+    background-color: rgb(133, 130, 155);
+}
+
+label {
+    font-size: medium;
+}

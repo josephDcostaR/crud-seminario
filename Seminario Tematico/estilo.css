@@ -1,0 +1,126 @@
+body {
+    background-image:-moz-linear-gradient(to left, rgb(6, 2, 56), rgba(77, 120, 199, 0.616));
+    margin-top: 30px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+label,input {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+}
+
+.inputClass {
+    background-color: rgba(6, 0, 37, 0.568);
+    color: aliceblue;
+}
+
+::placeholder {
+    color: rgb(139, 139, 139);
+}
+
+form {
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#esquerda {
+    width: 35%;
+    float: left;
+}
+
+#direita {
+    width: 65%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    background-color: rgba(0,0,0,.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr {
+    line-height: 30px;
+}
+
+tr#titulo  {
+    font-weight: bold;
+    background-color :rgba(0, 0, 0, .6);
+    color: white;
+}
+
+td {
+    padding: 0px 5px;
+    color: rgb(211, 204, 204);
+}
+
+.navegar, #navegar1, #navegar2 {
+    background-color: rgba(8, 31, 56, 0.527);
+    color: black;
+    animation: forwards;
+    padding: 2%;
+    margin-left: 1%;
+    text-decoration: none;
+}
+
+.navegar, #navegar1 {
+    margin-left: 11%;
+}
+
+.aviso {
+    width: 90%;
+    height: 50px;
+    margin: 30px auto 0px auto;
+}
+ img {
+     width: 50px;
+     display:block;
+     float: left;
+ }
+
+ h4 {
+    float: left;  
+    line-height: 50px;
+ }
+
+ #editar {
+    background-color: rgb(3, 192, 3);
+    color: black;
+    border: white;
+    padding: 5px;
+    text-decoration: none;
+ }
+
+ #deletar {
+    background-color: red;
+    color: black;
+    margin-left: 15%;
+    padding: 5px;
+    text-decoration: none;
+ }
+
+.cadastrar {
+    width: 150px;
+    height: 40px;
+    margin-left: 25%;
+}
